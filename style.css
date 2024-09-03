@@ -1,0 +1,467 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/IN-en-20240819-POP_SIGNUP_TWO_WEEKS-perspective_WEB_f4be2d60-6f77-49e2-aaf7-6327ac5a3a95_large.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8px;
+    position: relative;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 50px;
+}
+.logo{
+    margin: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+.right-sec{
+    min-width: 180px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 10px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.opt1{
+    border: 0;
+    outline: 0;
+    background: black;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 8px 25px;
+    position: relative;
+}
+
+#opt-2{
+    display: none;
+}
+.header-content{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
+}
+
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+.header-content h3{
+    margin: 20px;
+}
+.header-content p{
+    margin: 30px;
+}
+.sign-btn{
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+}
+.sub-btn{
+    border: 0;
+    outline: 0;
+    width: 153px;
+    background: #db0001;
+    color: #fff;
+    padding: 14px 15px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.email-c{
+    border-radius: 3px;
+    color: white;
+    width: 430px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid white;
+}
+/* trending-now  cards */
+.cards {
+    width: 90%;
+    margin: 30px auto;
+}
+.cards h3{
+    padding: 4px;
+    font-size: 20px;
+}
+.sec-1{
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;                                                 
+    padding: 10px;
+    width: 110px;
+}
+.sec-m{
+    margin-left: 20px;
+}
+.con-card {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    overflow-x: scroll;
+}
+.card1{
+    /* border: 2px solid white; */
+    min-width:200px;
+    height: 280px;
+    margin: 30px 0;
+}
+/* More reasons to join */
+.con-card2 h3{
+    margin:30px 0;
+}
+.mcarddiv{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+    margin: auto;
+}
+.mcard-1{
+    position: relative;
+    padding: 12px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    border-radius: 10px;
+    flex-grow: 1;
+    flex-basis: 200px;
+    height: 280px;
+}
+.icon-l{
+    width: 35px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    
+}
+/* .icon-m{
+    margin-top: 70px;
+}
+.icon-m2{
+    margin-top: 40px;
+} */
+.mcard-1 h3{
+    margin-left: 0px;
+}
+/* Frequently asked question */
+.container-3 .fq-text{
+    margin: 40px 75px;
+}
+.details-1{
+    background-color: #2d2d2d;
+    padding: 30px 20px;
+    width: 90%;
+    height: 80px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 3%;
+    position: relative;
+}
+.mail-bx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    HEIGHT: 250px;
+    justify-content: center;
+}
+.mail-c{
+    padding: 30px;
+}
+.mcard-1 p{
+    padding: 0 10px;
+}
+.plus{
+    width: 40px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    padding: 5px;
+    
+
+}
+/* footer */
+.ftr-11{
+    margin-left: 70px;
+    color: grey;
+}
+.ftr-11 a{
+    color: grey;
+}
+.ftr-1{
+   flex-grow: 1;
+   flex-basis: 250px;
+
+}
+.cont-1{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont-1 li{
+    line-height: 30px;
+    list-style: none;
+}
+.cont-1 a{
+    color: grey;
+}
+.lang{
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.pni{
+    margin:45px 50px
+}
+/* M-s-350 */
+@media screen and (max-width:350px){
+    .header-content{
+        margin-top: 0px;
+    }
+    .header-content h1{
+        width: 90%;
+        font-size: 34px;
+        line-height: 35px;
+        margin: auto;
+    }
+    .header-content h3{
+        width: 270px;
+    }
+    .logo{
+        width: 75px;
+        margin: 10px;
+        
+    }
+    nav{
+        padding:0px;
+    }
+    .opt1{
+        width: 10px;
+        margin: 10px;
+        color: white;
+        background: transparent;
+        border: 1px solid white;
+    }
+    .header-content p{
+        width: 253px;
+        margin: auto;
+        line-height: 23px;
+    }
+    
+    .email-c{
+        margin: 10px;
+        width: 80%;
+    }
+    .sub-btn{
+        margin-left: 0px;
+    }
+    .mcard-1{
+        margin: 0px;
+        padding: 6px;
+    }
+    /* trending-now  cards */
+    .cards h3{
+        width: 90%;
+        font-size: 15px;
+    }
+    .sec-1{
+        width: 90%;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    /* fq */
+    .container-3 .fq-text{
+        margin: 30px 20px
+    }
+    /* More reasons to join */
+    .con-card2 h3{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .mail-bx{
+        text-align: center;
+    }
+    .mcarddiv{
+        width: 90%; 
+    }
+    .cont-1{
+        flex-wrap: wrap;
+        padding: 15px;
+        line-height: 10px;
+    }
+    .cont-1 li {
+        line-height: 30px;
+    }
+}
+/* m-m-375 */
+@media screen and (max-width:385px) {
+    nav{
+        padding: 0px;
+    }
+    .logo{
+        width:100px
+    }
+    .opt1{
+        width: 10px;
+        margin: 10px;
+        color: white;
+        background: transparent;
+        border: 1px solid white;   
+    }
+    .header-content h1{
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: auto;
+    }
+    .header-content p{
+        /* width: 313px; */
+        margin: auto;
+        line-height: 23px;
+    }
+    .email-c{    
+        margin: 10px;
+        width: 90%;
+    }
+    .plus{
+        right: 15px;
+    }
+    .mail-c{
+        padding: 15px;
+        font-size: 16px;
+    }
+    .sub-btn{
+        margin-bottom: 0px;
+        margin-left: 10px
+    }
+    .ftr-11{
+        display: flex;
+        display: inline;
+        flex-direction: row;
+        margin:15px;
+    }
+    #fot-3{
+        width: 90%;
+    }
+    /* fq */
+    .container-3 .fq-text{
+        margin: 30px 20px
+    }
+    .cards h3 {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .cont-1{
+        flex-wrap: wrap;
+        padding: 20px;
+        line-height: 10px;
+    }
+    .lang{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .pni {
+        margin: 30px 10px;
+    }
+}
+/* m-l-435px */
+@media screen and (max-width:435px) {
+    nav{
+        padding:0px;
+    }
+    .logo{
+        width:100px
+    }
+    .opt1{
+        width: 50px;
+        margin: 10px;
+        color: white;
+        background: transparent;
+        border: 1px solid white;
+        padding: 8px 0px;  
+    }
+    #opt-1{
+        display: none;
+    }
+    #opt-2{
+        display: block;
+    }
+    .header-content h1{
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: auto;
+    }
+    .email-c{
+        margin: 10px;
+        width: 90%;
+    }
+    /* fq */
+    .container-3 .fq-text{
+        margin: 30px 20px
+    }
+    .cards h3 {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+/* tab-768px */
+@media screen and (max-width:768px) {
+    nav{
+        padding:0px;
+    }
+    .logo{
+        width:100px
+    }
+    .header-content h1{
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: auto;
+    }
+    /* fq */
+    .container-3 .fq-text{
+        margin: 30px 20px
+    }
+    .cards h3 {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
